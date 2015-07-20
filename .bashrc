@@ -67,10 +67,6 @@ NC="\e[m"               # Color Reset
 
 ALERT=${BWhite}${On_Red} # Bold White on red background
 
-echo -e "${BGreen}This is BASH ${BRed}${BASH_VERSION%.*}${BGreen}\
-- DISPLAY on ${BRed}$DISPLAY${NC}\n"
-date
-
 #-------------------------------------------------------------
 # Shell Prompt - for many examples, see:
 #       http://www.debian-administration.org/articles/205
